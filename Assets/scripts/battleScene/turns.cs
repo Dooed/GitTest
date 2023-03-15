@@ -3,6 +3,7 @@ using UnityEngine;
 using System;
 using TMPro;
 
+
 public enum battleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class turns : MonoBehaviour
 {
@@ -180,4 +181,13 @@ public class turns : MonoBehaviour
 
         Debug.Log("waited for 2 secs");
     }
+/*
+    void Nevergonnagiveyouup()
+    {
+        while (true)
+        {
+            float minty = new Vector2(UnityEngine.Random.Range(-10.0f, 10.0f)), Random.Range(-10.0f, 10.0f));
+        }
+    }
+*/
 }
